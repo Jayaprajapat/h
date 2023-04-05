@@ -17,3 +17,13 @@ for($x = 0; $x < $stdlen; $x++){
   echo "<br>";
 }
 ?>
+<?php
+$stdt = array("name" => "ram", "age" => "20", "experience" => "5");
+asort($stdt);
+
+$stdlen = count($stdt);
+foreach($stdt as $x => $value){
+  echo $x."  ".$value;
+  echo "<br>";
+}
+?>

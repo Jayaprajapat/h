@@ -35,6 +35,9 @@ $new = array("name" => "riya", "id" => 101, "city1" => "indore");
 $new2 = array("name" => "riya", "id" => 101, "city" => "ujjain");
 $new3 = array("name" => "rajat", "id" => 103, "city" => "indore");
 
+print_r(array_flip($new));
+echo "<br>"; 
+
 print_r(array_diff_assoc($new,$new2));
 echo "<br>";
 

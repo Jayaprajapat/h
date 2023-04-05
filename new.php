@@ -27,3 +27,14 @@ foreach($stdt as $x => $value){
   echo "<br>";
 }
 ?>
+
+<?php
+$stdt = array("name" => "ram", "age" => "20", "experience" => "5");
+ksort($stdt);
+
+$stdlen = count($stdt);
+foreach($stdt as $x => $value){
+  echo $x."  ".$value;
+  echo "<br>";
+}
+?>

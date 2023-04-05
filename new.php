@@ -7,3 +7,13 @@ echo $a. "  has experience of  " .$value." years.";
 echo "<br>";
 }
 ?>
+<?php
+$stdt = array("name", "age", "experience");
+sort($stdt);
+
+$stdlen = count($stdt);
+for($x = 0; $x < $stdlen; $x++){
+  echo $stdt[$x];
+  echo "<br>";
+}
+?>

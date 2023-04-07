@@ -114,6 +114,28 @@ echo current($stdt);
     $stdt = array("1" =>"mango ","2" =>"papaya ","3" =>"orange ","4" =>"papaya");
     print_r(array_unique($stdt));
     echo "<br>";
+
+
+    
+    function myfunc($a,$b)
+    {
+    if ($a===$b)
+    {
+    return 0;
+    }
+    return ($a>$b)?1:-1;
+    }
+    
+     $stdt = array("1" =>"mango ","2" =>"pineapple ","3" =>"orange ","4" =>"papaya");
+     $stdt1 = array("1" =>"mango ","2" =>"papaya ","4" =>"orange ","5" =>"papaya");
+     
+     $arr = array_uintersect($stdt, $stdt1, "myfunc");
+     print_r($arr);
+         echo "<br>";
+     
+     $arr2 = array_uintersect_assoc($stdt, $stdt1, "myfunc");
+     print_r($arr2);
+     echo "<br>";
     
 
 

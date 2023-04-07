@@ -48,4 +48,13 @@ echo current($stdt);
   echo "<br>";
   echo reset($stdt);
   echo "<br>";
+
+  if (in_array("ram", $stdt))
+  {
+  echo "found";
+  }
+  else
+  {
+  echo "not found";
+  }
 ?>

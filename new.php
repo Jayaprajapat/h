@@ -165,6 +165,15 @@ $color = array(4 => 'white', 6 => 'green', 11=> 'red');
  print_r($arr);
  echo "<br>";
 
+ $Color = array('A' => 'Blue', 'B' => 'Green', 'c' => 'Red');
+ print_r(array_change_key_case($Color, CASE_LOWER));
+  echo "<br>";
+ print_r(array_change_key_case($Color, CASE_UPPER));
+  echo "<br>";
+  
+ echo implode(",",range(200,250,4));
+  echo "<br>";
+
 }
 
 

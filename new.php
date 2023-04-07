@@ -103,6 +103,18 @@ echo current($stdt);
     $a1 = array($a,"3" =>"orange ","4" =>"papaya");
     array_walk_recursive($a1,"myfunction");
     
+    $stdt = array("1" =>"mango ","2" =>"pineapple ","3" =>"orange ","4" =>"papaya");
+    print_r(array_values($stdt));
+    echo "<br />";
+    
+    array_unshift($stdt, "apple", "custard apple");
+    print_r($stdt);
+    echo "<br />";
+    
+    $stdt = array("1" =>"mango ","2" =>"papaya ","3" =>"orange ","4" =>"papaya");
+    print_r(array_unique($stdt));
+    echo "<br>";
+    
 
 
     

@@ -145,6 +145,12 @@ foreach($ceu as $key => $value)
 {
 echo "The capital of $key is $value.";
 echo "<br>";
+
+
+$color = array(4 => 'white', 6 => 'green', 11=> 'red');
+ print_r(reset($color));
+ echo "<br>"; 
+ 
 }
 
 

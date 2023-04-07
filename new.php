@@ -57,4 +57,15 @@ echo current($stdt);
   {
   echo "not found";
   }
+
+  $st = array("ram", "riya", "raj");
+  
+  echo "key position is:" .key($st);
+  echo "<br>";
+  
+  
+  
+  $stdt = array("name" => "ram", "age" => "20", "experience" => "5");
+  echo "key position:".key($stdt);
+   echo "<br>";
 ?>

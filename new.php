@@ -87,5 +87,20 @@ echo current($stdt);
    $stdt = range(a,D);
     print_r($stdt);
     echo "<br />";
+
+    $a = "ram";
+    $b = "riya";
+    $c = "ritik";
+    
+    $arr = compact(a,b,c);
+    print_r($arr);
+    
+    function myfunction($value,$key)
+    {
+    echo "the key $key and value $value";
+    }
+    $a = array("1" =>"mango ","2" =>"pineapple");
+    array_walk_recursive($a,"myfunction");
+    
    
 ?>

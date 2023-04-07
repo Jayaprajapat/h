@@ -36,5 +36,16 @@ $stdlen = count($stdt);
 foreach($stdt as $x => $value){
   echo $x."  ".$value;
   echo "<br>";
+  
 }
+echo current($stdt);
+  echo "<br>";
+  echo next($stdt);
+  echo "<br>";
+  echo end($stdt);
+  echo "<br>";
+  echo prev($stdt);
+  echo "<br>";
+  echo reset($stdt);
+  echo "<br>";
 ?>

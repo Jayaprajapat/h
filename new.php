@@ -68,4 +68,11 @@ echo current($stdt);
   $stdt = array("name" => "ram", "age" => "20", "experience" => "5");
   echo "key position:".key($stdt);
    echo "<br>";
+   $st = array("ram", "riya", "raj", "ritik");
+  list($x, $y, $k) = $st;
+  echo "she has 3 friends $x $y $k";
+   echo "<br>";
+  list($x, , , $k) = $st;
+  echo "she has 2 friends $x $k";
+
 ?>

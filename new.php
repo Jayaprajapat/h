@@ -75,4 +75,17 @@ echo current($stdt);
   list($x, , , $k) = $st;
   echo "she has 2 friends $x $k";
 
+  $st = array("ram", "priya", "aman", "Ritik", "Naman", "neha");
+  natsort($st);
+  print_r($st);
+   echo "<br />";
+   
+  natcasesort($st);
+  print_r($st);
+   echo "<br />";
+
+   $stdt = range(a,D);
+    print_r($stdt);
+    echo "<br />";
+   
 ?>

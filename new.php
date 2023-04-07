@@ -97,10 +97,14 @@ echo current($stdt);
     
     function myfunction($value,$key)
     {
-    echo "the key $key and value $value";
+    echo "the key $key and value $value<br>";
     }
-    $a = array("1" =>"mango ","2" =>"pineapple");
-    array_walk_recursive($a,"myfunction");
+    $a = array("1" =>"mango ","2" =>"pineapple ");
+    $a1 = array($a,"3" =>"orange ","4" =>"papaya");
+    array_walk_recursive($a1,"myfunction");
+    
+
+
     
    
 ?>

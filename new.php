@@ -145,7 +145,7 @@ foreach($ceu as $key => $value)
 {
 echo "The capital of $key is $value.";
 echo "<br>";
-
+}
 
 $color = array(4 => 'white', 6 => 'green', 11=> 'red');
  print_r(reset($color));
@@ -174,7 +174,7 @@ $color = array(4 => 'white', 6 => 'green', 11=> 'red');
  echo implode(",",range(200,250,4));
   echo "<br>";
 
-}
+
 
 
 
